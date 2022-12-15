@@ -15,9 +15,10 @@ def Home(nama):
         "2. Create todo list/Catatan Offline(Local)",
         "3. Update todo List",
         "4. Cek Catatan Online",
+        "5. Exit"
     ]
 
-    for i in range(6):
+    for i in range(7):
         print(home[i])
 
     try:
@@ -35,6 +36,10 @@ def Home(nama):
         elif (pilih == 4):
             os.system('cls')
             openWeb.Web(nama)
+        else:
+            os.system('cls')
+            print('Thank You!')
     except:
         os.system('cls')
         Home(nama)
+    
