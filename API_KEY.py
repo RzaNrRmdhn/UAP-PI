@@ -1,7 +1,7 @@
 class Token:
-    token = 'secret_t9n5idxrQfccp6sx9qThmznM7aZUIqpqDntAoSTSKUh'
+    token = '' # Use Your Token
 
-    databaseId = '7d65f30db93047a2a8ebb6002eef1f25'
+    databaseId = '' # Use Your DatabaseId
 
     headers = {
         "Authorization": "Bearer " + token,
